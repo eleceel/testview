@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.hello.joyce.test.Text3_6">
+
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView2" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="#06酗酒"
+            android:id="@+id/tv_title"
+            android:textSize="30dp"
+            android:textColor="#820f12"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="        過量飲酒可能造成血壓上升、心跳加快，此時就容易誘發腦出血。"
+            android:id="@+id/tv_1"
+            android:layout_below="@+id/tv_title"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="27dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="        由於過量飲酒可能導致中樞神經興奮，造成情緒高昂、血壓上升、心跳加快。此時就容易誘發腦出血。此外，酗酒易引起肥胖、血脂過高等問題，也是造成日後中風的危險因子。"
+            android:id="@+id/tv_2"
+            android:layout_below="@+id/tv_1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="        其實少量的飲酒，例如男性每天不超過2罐啤酒，女性不超過每天l罐啤酒，有助於預防心血管疾病。相反的，過量的飲酒，例如每天超過5罐啤酒的酒精量，則會誘發腦中風。"
+            android:id="@+id/tv_3"
+            android:layout_below="@+id/tv_2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="        只是大部分的人是貪杯的，能夠每天維持少許飲酒量，來維持健康的人還是少見，而且酒精雖有益於心臟，卻容易傷害肝臟，還有可能造成胰臟炎，增加糖尿病、口腔癌的發生率。除非有特別的健康需求，一般還是不會特別建議民眾採用喝酒的方式來促進健康。"
+            android:id="@+id/tv_4"
+            android:layout_below="@+id/tv_3"
+            android:layout_toRightOf="@+id/scrollView2"
+            android:layout_toEndOf="@+id/scrollView2" />
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

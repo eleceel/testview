@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hello.joyce.test.Text2_1">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="#01控制血壓"
+                android:id="@+id/tv_title"
+                android:textSize="30dp"
+                android:textColor="#820f12"
+                android:layout_marginTop="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        高血壓沒有明顯不適症狀，所以必須確實定期量測血壓，才能有效控制病情，平日採取低鹽、低脂肪的飲食，來保持適當適重體重。"
+                android:id="@+id/tv_1"
+                android:layout_below="@+id/tv_title"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        衛生署的統計資料顯示，罹患高血壓的人，其中風機率是一般人的6倍。高血壓患者如果未按時服藥控制血壓的話，中風機率是按時服藥者的21倍之多，因此控制血壓是首要之務。"
+                android:id="@+id/tv_2"
+                android:layout_below="@+id/tv_1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        如果醫生有開立降血壓藥物。一定要按照規定服用。"
+                android:id="@+id/tv_3"
+                android:layout_below="@+id/tv_2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

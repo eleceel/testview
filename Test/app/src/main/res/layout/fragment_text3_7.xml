@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.hello.joyce.test.Text3_7">
+
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView2" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="#07飲食"
+            android:id="@+id/tv_title"
+            android:textSize="30dp"
+            android:textColor="#820f12"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="        高鹽、高膽固醇飲食等，易增加腦中風發作的風險。"
+            android:id="@+id/tv_1"
+            android:layout_below="@+id/tv_title"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="27dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="        部分飲食確實容易提高全身性疾病的發生率，例如高血壓、高血脂、糖尿病，都會間接提高中風危險性。"
+            android:id="@+id/tv_2"
+            android:layout_below="@+id/tv_1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="        高血壓患者為例，每日的食用鈉量應低於 2 公克。因此應避免過鹹的食物、醃製品、鹽酥類等等，也可省去計算食鹽量的功夫。還有些食物併用，有可能造成血壓飆高，例如乳酪與紅酒會造成內生性的胺類增加，會引發類似交威神經興奮的效果，使得血壓因而竄高。"
+            android:id="@+id/tv_3"
+            android:layout_below="@+id/tv_2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="        高油脂的食物也要減少，並搭配足量的纖維蔬果，飲食均衡，才可以改善血糖及血脂肪。"
+            android:id="@+id/tv_4"
+            android:layout_below="@+id/tv_3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

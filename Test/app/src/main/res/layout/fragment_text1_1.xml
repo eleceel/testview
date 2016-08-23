@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hello.joyce.test.Text1_1">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="#01高血壓 V.S 中風"
+                android:id="@+id/tv_title"
+                android:textSize="30dp"
+                android:textColor="#820f12"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        高血壓易使血管內膜受損，導致膽固醇堆積，加速血管硬化"
+                android:id="@+id/tv_1"
+                android:layout_below="@+id/tv_title"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="27dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        過高的血壓會對血管內膜造成不正常的壓力，使得血管內膜受損，膽固醇更容易推積。並加速血管硬化，容易併發血栓症，引起缺血性腦中風。研究資料顯示，高血壓病患發生腦中風的機率比血壓正常者高出六倍以上。"
+                android:id="@+id/tv_2"
+                android:layout_below="@+id/tv_1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        研究資料亦指出，六成的中風都與高血壓有關，而長期高血壓更會促使血管硬化，產生一些臨床上不明顯的小中風症狀。其實只要血壓每上升10毫米汞柱(mmHg)，腦中風的風險就會提高約兩倍，若是完全不注意自己的血壓，讓身體長時間處於疲勞狀態，甚至徹夜的狂歡，此時的血壓飆高而導致心臟病發、急性腦出血的情況絕非罕見。"
+                android:id="@+id/tv_3"
+                android:layout_below="@+id/tv_2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

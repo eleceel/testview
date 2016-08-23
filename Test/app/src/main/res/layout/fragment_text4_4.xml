@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hello.joyce.test.Text4_4">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="#04消除心理壓力"
+                android:id="@+id/tv_title"
+                android:textSize="30dp"
+                android:textColor="#820f12"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="●避免負面思考方向"
+                android:id="@+id/tv_1"
+                android:layout_below="@+id/tv_title"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="27dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        情緒不穩定，無法適應環境時，通常代表著自己的想法認知有偏差，此時可以試著與平日不同的角度來思考。只要不以扭曲的角度看待事物，我們就能更客觀地面對事物的原貌，跟隨眼前的事實來思考，情緒就會隨之放鬆，壓力就不會有糾纏心靈。"
+                android:id="@+id/tv_2"
+                android:layout_below="@+id/tv_1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="●盡量減少壓力源"
+                android:id="@+id/tv_3"
+                android:layout_below="@+id/tv_2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        容易積存壓力的人，往往無法推辭別人請託的事，又不想辜負他人的期待。這時應該思考是否負擔過重，為自己適時拒絕不合理的要求。"
+                android:id="@+id/tv_4"
+                android:layout_below="@+id/tv_3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="●觀察自己是否有持續且長期的強烈情緒變化"
+                android:id="@+id/tv_5"
+                android:layout_below="@+id/tv_4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        日常生活事件中。難免會遇到令人大喜大悲的事，但所造成的情緒通常是短暫的，若是長期都處於強烈的情緒變化之中，就會影響身體的內分泌，並造成精神功能失調。應適度調整情緒，使內心保持平穩的情緒。"
+                android:id="@+id/tv_6"
+                android:layout_below="@+id/tv_5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="●感到疲憊就要適時休息"
+                android:id="@+id/tv_7"
+                android:layout_below="@+id/tv_6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        身體很累時，要適時休息。如果忽略身心警訊，勉強地工作 · 持續的疲倦將會使身體陷入疾病中，心理也會承受莫大的壓力。"
+                android:id="@+id/tv_8"
+                android:layout_below="@+id/tv_7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="●大事化小的解壓法"
+                android:id="@+id/tv_9"
+                android:layout_below="@+id/tv_8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        面對的工作量大或有難解的問題時，可將工作細分為幾個小部分，集中眼前的這一小部分，其他再逐一解決。例如雙薪家庭的妻子，可能為了繁重的家務而煩惱，應將家務分為幾個小部分，由家人分工完成。"
+                android:id="@+id/tv_10"
+                android:layout_below="@+id/tv_9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="●找人傾訴紓壓"
+                android:id="@+id/tv_11"
+                android:layout_below="@+id/tv_10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        自己無法紓壓，可以找家人、好友、神職人員、心理諮商專家聊聊，以第三者眼光來觀察此事，或許可找到解決問題的方法，也能找到支持力量，來抵抗沉重的壓力。"
+                android:id="@+id/tv_12"
+                android:layout_below="@+id/tv_11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="●培養可放鬆心情的休閒嗜好"
+                android:id="@+id/tv_13"
+                android:layout_below="@+id/tv_12"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        培養正當的嗜好，可以讓身心為之放鬆，例如戶外踏青、運動、聽音樂等等，可以讓身心放空，使自己更有活力而面對壓力。"
+                android:id="@+id/tv_14"
+                android:layout_below="@+id/tv_13"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

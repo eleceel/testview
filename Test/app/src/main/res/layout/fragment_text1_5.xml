@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.hello.joyce.test.Text1_5">
+
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView2" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="#05心臟不好 V.S 中風"
+            android:id="@+id/tv_title"
+            android:textSize="30dp"
+            android:textColor="#820f12"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="        罹患心臟瓣膜疾病的患者，併發腦栓塞且導致缺血性中風的機率是10%"
+        android:id="@+id/tv_1"
+        android:layout_below="@+id/tv_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="        心臟是全身血流的主要動力，因此當它衰竭時會造常全身的血液灌流不足，各器官功能衰退。例如運動能力下降、思考和反應能力降低等等。"
+        android:id="@+id/tv_2"
+        android:layout_below="@+id/tv_1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="        這是由於在心臟形成血管阻塞栓子，血栓脫落的栓子隨著血流流到其他部位，當阻塞腦部血管，血液無法流動時，就會造成腦中風。心臟肥大、心肌梗塞者中風風險都是一般人的2到4倍。"
+        android:id="@+id/tv_3"
+        android:layout_below="@+id/tv_2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="        另外心律不整的患者，更是發生腦中風的高危險族群。由於心跳不規則會造成血液亂流，血球、血小板、凝血因子碰撞的機率增加，形成血栓，血栓隨血液亂流就有可能阻塞腦血管造成腦中風。"
+        android:id="@+id/tv_4"
+        android:layout_below="@+id/tv_3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

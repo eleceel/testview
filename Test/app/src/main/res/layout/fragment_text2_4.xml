@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hello.joyce.test.Text2_4">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="#04高血脂的治療及預防"
+                android:id="@+id/tv_title"
+                android:textSize="30dp"
+                android:textColor="#820f12"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        高血脂症是指血中脂肪代謝異常的意思。治療目標，是使血脂異常恢復正常，來降低動脈硬化及心臟血管疾病的發生。"
+                android:id="@+id/tv_1"
+                android:layout_below="@+id/tv_title"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="27dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        一般而言，都會先建議高血脂症患者先進行三至六個月的「飲食療法」，並導正生活作息，輔以運動後，如果血脂仍高才考慮併以「藥物治療」。"
+                android:id="@+id/tv_2"
+                android:layout_below="@+id/tv_1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        預防高血脂症，可做定期抽血檢查，正常者可每三年檢查一次，異常者則是每三個月一次。此外，在飲食上應保持清淡、多吃高織食物、攝取均衡的營養、做適度運動、拒絕菸酒，就能遠離高血脂症的威脅。"
+                android:id="@+id/tv_3"
+                android:layout_below="@+id/tv_2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

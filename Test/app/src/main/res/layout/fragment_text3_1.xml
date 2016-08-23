@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hello.joyce.test.Text3_">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="#01老菸槍"
+                android:id="@+id/tv_title"
+                android:textSize="30dp"
+                android:textColor="#820f12"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        抽菸容易造成血液黏稠度增加，使得血管收縮，引起血壓上升及增加動脈粥狀硬化的機率。"
+                android:id="@+id/tv_1"
+                android:layout_below="@+id/tv_title"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="27dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        這是因為菸草中的尼古丁容易使血管痙攣、心跳加快、血壓升高，加速動脈硬化，使血液凝固性與黏稠度增加，並造成血管收縮，引起血壓上升及動脈粥狀硬化的問題。"
+                android:id="@+id/tv_2"
+                android:layout_below="@+id/tv_1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        抽菸與各類型中風的關係都是直接且明顯的，尤其容易發生缺血性中風與蜘蛛膜下腔出血的疾病。"
+                android:id="@+id/tv_3"
+                android:layout_below="@+id/tv_2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        抽菸的人較不抽菸者，高出70%的腦中風風險，尤其是菸癮重者的風險更高。若是每天吸菸超過1包，發生蜘蛛膜下腔出血的風險更是高達11度之多。"
+                android:id="@+id/tv_4"
+                android:layout_below="@+id/tv_3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        此外，抽菸還會造成次發性的紅血球增加，使血液濃度上升。當我們血球量過高時，血流會隨之變慢，而且對組織的氧氣運送便不會提升，使得供氧量減少。因血球過高而產生的中風也是時有所聞，而抽菸更是最常見的誘發因子。"
+                android:id="@+id/tv_5"
+                android:layout_below="@+id/tv_4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        抽菸也是導致心臟病的重要危險因子，吸菸者的心臟病罹患率為非吸菸者的兩倍。"
+                android:id="@+id/tv_6"
+                android:layout_below="@+id/tv_5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="       只要能戒除菸癮並遠離二手菸的環境，不只肺功能獲得改善，中風的機率也會在2、4年後隨之下降，並能過著健康及遠離罹患疾病的生活。"
+                android:id="@+id/tv_7"
+                android:layout_below="@+id/tv_6"
+                android:layout_toRightOf="@+id/scrollView2"
+                android:layout_toEndOf="@+id/scrollView2" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,325 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hello.joyce.test.Knowledge"
+    android:id="@+id/Relative_knowledge">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:text="#1    慢性疾病和中風的關係"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#00000000"
+                android:textSize="25dp"
+                android:textColor="#820f12" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".高血壓 V.S 中風"
+                android:id="@+id/btn_1_1"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".心臟不好 V.S 中風"
+                android:id="@+id/btn_1_5"
+                android:layout_below="@+id/imageView"
+                android:layout_toRightOf="@+id/btn_1_1"
+                android:layout_toEndOf="@+id/btn_1_1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="15dp"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".高血脂 V.S 中風"
+                android:id="@+id/btn_1_2"
+                android:layout_below="@+id/btn_1_1"
+                android:layout_toLeftOf="@+id/btn_1_5"
+                android:layout_toStartOf="@+id/btn_1_5"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".糖尿病 V.S 中風"
+                android:id="@+id/btn_1_3"
+                android:layout_below="@+id/btn_1_2"
+                android:layout_alignLeft="@+id/btn_1_2"
+                android:layout_alignStart="@+id/btn_1_2"
+                android:background="#00000000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".頸動脈狹窄 V.S 中風"
+                android:id="@+id/btn_1_4"
+                android:layout_below="@+id/btn_1_3"
+                android:layout_alignLeft="@+id/btn_1_3"
+                android:layout_alignStart="@+id/btn_1_3"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".分娩後 V.S中風"
+                android:id="@+id/btn_1_6"
+                android:layout_below="@+id/btn_1_5"
+                android:layout_alignLeft="@+id/btn_1_5"
+                android:layout_alignStart="@+id/btn_1_5"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".癌症 V.S 中風"
+                android:id="@+id/btn_1_7"
+                android:layout_above="@+id/btn_1_4"
+                android:layout_alignLeft="@+id/btn_1_6"
+                android:layout_alignStart="@+id/btn_1_6"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#2    控制慢性疾病的首要之務"
+                android:id="@+id/imageView2"
+                android:layout_below="@+id/btn_1_4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#00000000"
+                android:textSize="25dp"
+                android:textColor="#820f12" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".控制血壓、降低中風罹患率"
+                android:id="@+id/btn_2_1"
+                android:layout_below="@+id/imageView2"
+                android:layout_alignLeft="@+id/btn_1_4"
+                android:layout_alignStart="@+id/btn_1_4"
+                android:background="#00000000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".糖尿病的控制重點"
+                android:id="@+id/btn_2_2"
+                android:layout_below="@+id/btn_2_1"
+                android:layout_alignLeft="@+id/btn_2_1"
+                android:layout_alignStart="@+id/btn_2_1"
+                android:background="#00000000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".心律不整的平日預防"
+                android:id="@+id/btn_2_3"
+                android:layout_below="@+id/btn_2_2"
+                android:layout_alignLeft="@+id/btn_2_2"
+                android:layout_alignStart="@+id/btn_2_2"
+                android:background="#00000000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".高血脂的治療及預防"
+                android:id="@+id/btn_2_4"
+                android:layout_below="@+id/btn_2_3"
+                android:layout_alignLeft="@+id/btn_2_3"
+                android:layout_alignStart="@+id/btn_2_3"
+                android:background="#00000000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#3    生活中潛藏的隱形殺手"
+                android:id="@+id/imageView3"
+                android:layout_below="@+id/btn_2_4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#00000000"
+                android:textSize="25dp"
+                android:textColor="#820f12" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".老菸槍"
+                android:id="@+id/btn_3_1"
+                android:layout_below="@+id/imageView3"
+                android:layout_alignLeft="@+id/btn_2_4"
+                android:layout_alignStart="@+id/btn_2_4"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:gravity="center_vertical|left" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".缺乏運動"
+                android:id="@+id/btn_3_2"
+                android:layout_below="@+id/btn_3_1"
+                android:layout_alignLeft="@+id/btn_3_1"
+                android:layout_alignStart="@+id/btn_3_1"
+                android:background="#00000000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".口服避孕藥"
+                android:id="@+id/btn_3_3"
+                android:layout_below="@+id/btn_3_2"
+                android:layout_alignLeft="@+id/btn_3_2"
+                android:layout_alignStart="@+id/btn_3_2"
+                android:background="#00000000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".不適當的按摩"
+                android:id="@+id/btn_3_4"
+                android:layout_below="@+id/btn_3_3"
+                android:layout_alignLeft="@+id/btn_3_3"
+                android:layout_alignStart="@+id/btn_3_3"
+                android:background="#00000000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".肥胖"
+                android:id="@+id/btn_3_5"
+                android:layout_below="@+id/imageView3"
+                android:layout_alignLeft="@+id/btn_1_7"
+                android:layout_alignStart="@+id/btn_1_7"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:gravity="center_vertical|left|right" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".酗酒"
+                android:id="@+id/btn_3_6"
+                android:layout_below="@+id/btn_3_5"
+                android:layout_alignLeft="@+id/btn_3_5"
+                android:layout_alignStart="@+id/btn_3_5"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:gravity="center_vertical|left" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".飲食"
+                android:id="@+id/btn_3_7"
+                android:layout_below="@+id/btn_3_6"
+                android:layout_alignLeft="@+id/btn_3_6"
+                android:layout_alignStart="@+id/btn_3_6"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:gravity="center_vertical|left" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:text="#4    預防腦中風的方法"
+                android:layout_below="@+id/btn_3_4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#00000000"
+                android:textSize="25dp"
+                android:textColor="#820f12" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".戒除抽菸"
+                android:id="@+id/btn_4_1"
+                android:layout_below="@+id/imageView4"
+                android:layout_alignLeft="@+id/btn_3_4"
+                android:layout_alignStart="@+id/btn_3_4"
+                android:background="#00000000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".睡眠品質的改善"
+                android:id="@+id/btn_4_2"
+                android:layout_below="@+id/imageView4"
+                android:layout_alignLeft="@+id/btn_3_7"
+                android:layout_alignStart="@+id/btn_3_7"
+                android:background="#00000000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".消除肥胖"
+                android:id="@+id/btn_4_3"
+                android:layout_below="@+id/btn_4_1"
+                android:layout_alignLeft="@+id/btn_4_1"
+                android:layout_alignStart="@+id/btn_4_1"
+                android:background="#00000000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".消除心理壓力"
+                android:id="@+id/btn_4_4"
+                android:layout_below="@+id/btn_4_2"
+                android:layout_alignLeft="@+id/btn_4_2"
+                android:layout_alignStart="@+id/btn_4_2"
+                android:background="#00000000"
+                android:textSize="20dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

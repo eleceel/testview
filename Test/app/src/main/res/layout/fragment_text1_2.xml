@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hello.joyce.test.Text1_2">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="#02高血脂 V.S 中風"
+                android:id="@+id/tv_title"
+                android:textSize="30dp"
+                android:textColor="#820f12"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        血脂過高時會加速動脈硬化，引發血栓、粥狀硬化，使的血管遭到破壞。"
+                android:id="@+id/tv_1"
+                android:layout_below="@+id/tv_title"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="27dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        此時存在血管中的膽固醇及中性脂肪會沉積在管壁，造成血栓、粥狀硬化而破壞血管。這類的患者通常伴有肥胖、高血壓、冠心症等病患，更易增加腦中風的機會。"
+                android:id="@+id/tv_2"
+                android:layout_below="@+id/tv_1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        高血脂與心血管疾病相關性很大，與腦中風的關聯性目前認為較小。不過它容易造成血管粥狀硬化，塞住血管。如果冠狀腦部的頸動脈一旦變狹窄，加上斑塊或是血流量驟降，中風就會發生。"
+                android:id="@+id/tv_3"
+                android:layout_below="@+id/tv_2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        以型態來看，高血脂與大血管阻塞及小洞性中風比較有關係"
+                android:id="@+id/tv_4"
+                android:layout_below="@+id/tv_3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        小洞性中風又名「小動脈血管阻塞」，是指腦部小血管出現栓塞，通常經由電腦斷層或核磁共振檢查可以發現。因為看起來是直徑小於1.5公分的空洞，因此稱為「小洞性中風」。需要注意的是，這種類型的中風與暫時性腦缺血一樣，症狀輕微可能短時間消失，但若長時間累積發生數次，則有機會引起嚴重中風。"
+                android:id="@+id/tv5"
+                android:layout_below="@+id/tv_4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="        一般來說過高的膽固醇(300mg/dl)會與缺血性中風的發生有輕度關係。部分臨床研究也發現，使用降血脂藥物的患者，其腦中風復發的相對風險可減少約23%，風險降低約2%。  "
+                android:id="@+id/tv_6"
+                android:layout_below="@+id/tv5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

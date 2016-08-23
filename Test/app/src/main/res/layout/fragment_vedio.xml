@@ -1,0 +1,331 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hello.joyce.test.Vedio">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/btn_p1"
+                android:background="@drawable/picture_1"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentEnd="false" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/btn_v2"
+                android:background="@drawable/vedio_2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="85dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正確示範"
+                android:id="@+id/btn_activity1"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_alignTop="@+id/btn_activity9"
+                android:layout_alignLeft="@+id/btn_activity2"
+                android:layout_alignStart="@+id/btn_activity2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正確示範"
+                android:id="@+id/btn_activity2"
+                android:layout_marginTop="67dp"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_below="@+id/btn_v2"
+                android:layout_toRightOf="@+id/btn_v2"
+                android:layout_toEndOf="@+id/btn_v2" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正確示範"
+                android:id="@+id/btn_activity3"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_below="@+id/btn_activity2"
+                android:layout_alignLeft="@+id/btn_activity2"
+                android:layout_alignStart="@+id/btn_activity2" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正確示範"
+                android:id="@+id/btn_activity4"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_below="@+id/btn_activity3"
+                android:layout_alignLeft="@+id/btn_activity3"
+                android:layout_alignStart="@+id/btn_activity3" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正確示範"
+                android:id="@+id/btn_activity5"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_below="@+id/btn_activity4"
+                android:layout_alignLeft="@+id/btn_activity4"
+                android:layout_alignStart="@+id/btn_activity4" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正確示範"
+                android:id="@+id/btn_activity6"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_below="@+id/btn_activity5"
+                android:layout_alignLeft="@+id/btn_activity5"
+                android:layout_alignStart="@+id/btn_activity5" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正確示範"
+                android:id="@+id/btn_activity7"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_below="@+id/btn_activity6"
+                android:layout_alignLeft="@+id/btn_activity6"
+                android:layout_alignStart="@+id/btn_activity6" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正確示範"
+                android:id="@+id/btn_activity8"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_below="@+id/btn_activity7"
+                android:layout_alignLeft="@+id/btn_activity7"
+                android:layout_alignStart="@+id/btn_activity7" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="錯誤示範"
+                android:id="@+id/btn_activity9"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_above="@+id/btn_activity10"
+                android:layout_toRightOf="@+id/btn_activity1"
+                android:layout_toEndOf="@+id/btn_activity1"
+                android:layout_marginLeft="20dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="錯誤示範"
+                android:id="@+id/btn_activity10"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_above="@+id/btn_activity3"
+                android:layout_alignLeft="@+id/btn_activity11"
+                android:layout_alignStart="@+id/btn_activity11" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="錯誤示範"
+                android:id="@+id/btn_activity11"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_below="@+id/btn_activity10"
+                android:layout_alignLeft="@+id/btn_activity12"
+                android:layout_alignStart="@+id/btn_activity12" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="錯誤示範"
+                android:id="@+id/btn_activity12"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_alignTop="@+id/btn_activity4"
+                android:layout_alignLeft="@+id/btn_activity13"
+                android:layout_alignStart="@+id/btn_activity13" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="錯誤示範"
+                android:id="@+id/btn_activity13"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_below="@+id/btn_activity12"
+                android:layout_alignLeft="@+id/btn_activity14"
+                android:layout_alignStart="@+id/btn_activity14" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="錯誤示範"
+                android:id="@+id/btn_activity14"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_below="@+id/btn_activity13"
+                android:layout_alignLeft="@+id/btn_activity15"
+                android:layout_alignStart="@+id/btn_activity15" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="錯誤示範"
+                android:id="@+id/btn_activity15"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_below="@+id/btn_activity14"
+                android:layout_alignLeft="@+id/btn_activity16"
+                android:layout_alignStart="@+id/btn_activity16" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="錯誤示範"
+                android:id="@+id/btn_activity16"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:clickable="true"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/btn_activity8"
+                android:layout_toEndOf="@+id/btn_activity8"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="上舉"
+                android:id="@+id/tv_1"
+                android:layout_alignTop="@+id/btn_activity1"
+                android:layout_alignRight="@+id/btn_p1"
+                android:layout_alignEnd="@+id/btn_p1"
+                android:gravity="center_vertical"
+                android:layout_above="@+id/tv_2"
+                android:textColor="#820f12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="下放"
+                android:id="@+id/tv_2"
+                android:layout_below="@+id/btn_activity1"
+                android:layout_alignLeft="@+id/tv_1"
+                android:layout_alignStart="@+id/tv_1"
+                android:layout_alignBottom="@+id/btn_activity2"
+                android:gravity="center_vertical"
+                android:textColor="#820f12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="摸耳朵"
+                android:id="@+id/tv_3"
+                android:layout_alignTop="@+id/btn_activity3"
+                android:layout_alignLeft="@+id/tv_2"
+                android:layout_alignStart="@+id/tv_2"
+                android:layout_alignBottom="@+id/btn_activity3"
+                android:gravity="center_vertical"
+                android:textColor="#820f12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="摸肩膀"
+                android:id="@+id/tv_4"
+                android:layout_alignTop="@+id/btn_activity4"
+                android:layout_alignLeft="@+id/tv_3"
+                android:layout_alignStart="@+id/tv_3"
+                android:layout_alignBottom="@+id/btn_activity4"
+                android:gravity="center_vertical"
+                android:textColor="#820f12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="踢腿"
+                android:id="@+id/tv_5"
+                android:layout_alignTop="@+id/btn_activity5"
+                android:layout_alignLeft="@+id/tv_4"
+                android:layout_alignStart="@+id/tv_4"
+                android:layout_alignBottom="@+id/btn_activity5"
+                android:gravity="center_vertical"
+                android:textColor="#820f12"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="挺腹"
+                android:id="@+id/tv_6"
+                android:gravity="center_vertical"
+                android:textColor="#820f12"
+                android:layout_alignTop="@+id/btn_activity6"
+                android:layout_alignLeft="@+id/tv_5"
+                android:layout_alignStart="@+id/tv_5"
+                android:layout_alignBottom="@+id/btn_activity6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="側抬腿"
+                android:id="@+id/tv_7"
+                android:layout_alignTop="@+id/btn_activity7"
+                android:layout_alignLeft="@+id/tv_6"
+                android:layout_alignStart="@+id/tv_6"
+                android:layout_above="@+id/btn_activity8"
+                android:gravity="center_vertical"
+                android:textColor="#820f12"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="側上斜舉"
+                android:id="@+id/tv_8"
+                android:layout_below="@+id/btn_activity7"
+                android:layout_alignLeft="@+id/tv_7"
+                android:layout_alignStart="@+id/tv_7"
+                android:layout_alignBottom="@+id/btn_activity8"
+                android:gravity="center_vertical"
+                android:textColor="#820f12"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
